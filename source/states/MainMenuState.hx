@@ -26,11 +26,11 @@ class MainMenuState extends MusicBeatState
 	var optionShit:Array<String> = [
 		'story_mode',
 		'freeplay',
-		#if MODS_ALLOWED 'mods', #end
-		#if ACHIEVEMENTS_ALLOWED 'awards', #end
-		'credits',
-		#if !switch 'donate', #end
-		'options'
+	//	#if MODS_ALLOWED 'mods', #end
+	//	#if ACHIEVEMENTS_ALLOWED 'awards', #end
+		'options',
+	//	#if !switch 'donate', #end
+		'credits'
 	];
 
 	var magenta:FlxSprite;
